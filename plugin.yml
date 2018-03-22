@@ -1,0 +1,16 @@
+main: ssm.Main
+name: MyPlugin
+version: 1.0
+author: me
+description: An Example plugin
+commands:
+  mycommand:
+    description: An example command
+    usage: /mycommand
+    permission: myplugin.mycommand
+    permission-message: You don't have the myplugin.mycommand permission.
+  fire:
+    description: An example command
+    usage: /mycommand
+    permission: myplugin.mycommand
+    permission-message: You don't have the myplugin.mycommand permission.

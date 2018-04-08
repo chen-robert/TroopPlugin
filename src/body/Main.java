@@ -46,7 +46,6 @@ public class Main extends JavaPlugin{
 			if(sender instanceof Player)fire((Player) sender);
 		}
 		sender.sendMessage(command.getName());
-		Bukkit.broadcastMessage("HI");
 		return true;
 	}
 	/**

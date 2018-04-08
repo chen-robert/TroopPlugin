@@ -83,7 +83,6 @@ public class SSMEventListener implements Listener{
 			if(e.getEntity().hasMetadata("SSMGroup")){
 				if(e.getDamager().getMetadata("SSMGroup").get(0).asInt() == 
 						e.getEntity().getMetadata("SSMGroup").get(0).asInt()){
-					System.out.println("HI");
 					e.setCancelled(true);
 				}
 			}

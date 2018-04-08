@@ -1,16 +1,11 @@
 main: ssm.Main
-name: MyPlugin
+name: Napoleon
 version: 1.0
-author: me
-description: An Example plugin
+author: Robert Chen
+description: A plugin that simulates Napoleonic era troop formations.
 commands:
-  mycommand:
-    description: An example command
-    usage: /mycommand
-    permission: myplugin.mycommand
-    permission-message: You don't have the myplugin.mycommand permission.
   fire:
-    description: An example command
-    usage: /mycommand
-    permission: myplugin.mycommand
-    permission-message: You don't have the myplugin.mycommand permission.
+    description: Commands currently selected troops to shoot.
+    usage: /fire
+    permission: myplugin.fire
+    permission-message: You don't have permission to fire.

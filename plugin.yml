@@ -1,4 +1,4 @@
-main: ssm.Main
+main: body.Main
 name: Napoleon
 version: 1.0
 author: Robert Chen
